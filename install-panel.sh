@@ -91,6 +91,8 @@ function check_os_comp {
       SUPPORTED=true
     elif [ "$OS_VERSION" == "18" ]; then
       SUPPORTED=true
+    elif [ "$OS_VERSION" == "19" ]; then
+      SUPPORTED=true
     else
       SUPPORTED=false
     fi
